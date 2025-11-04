@@ -12,3 +12,4 @@
 # Today is Thursday, October 30th, 2025 - day 11 of reviewing how to use the git reset and git revert commands.
 
 # Sloved stash conflict 
+# code optimization started here
