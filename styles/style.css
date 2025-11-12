@@ -11,13 +11,25 @@ body {
   padding: 0;
   background-color: #f4f4f4;
   color: #233;
+  text-align: center;
 
 }
 
 ul {
-  list-style-type: none;
+  list-style-type: disc;
   padding: 0;
+  padding-left: 20px;
   text-align: center;
+  display: inline-block;
+
+}
+
+ol {
+  list-style-type: decimal;
+  padding: 0;
+  padding-left: 20px;
+  text-align: center;
+  display: inline-block;
 
 }
 
@@ -61,4 +73,13 @@ a {
 
 p {
   text-align: center;
+}
+
+.recipe-image {
+  display: block;
+  width: 200px !important;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
